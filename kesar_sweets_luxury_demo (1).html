@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kesar Sweets & Restaurant | Sabor Fine Dining • Ajmer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        maroon: {
+                            800: '#5A111D',
+                            900: '#3D0711',
+                            950: '#240209'
+                        },
+                        saffron: {
+                            500: '#E87A1E',
+                            600: '#D96E14',
+                            700: '#B05307'
+                        },
+                        gold: {
+                            400: '#E5C158',
+                            500: '#C99838',
+                            600: '#9E7422'
+                        },
+                        cream: {
+                            50: '#FDFBF7',
+                            100: '#F9F4EB',
+                            200: '#F2E6D4'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #FFE89C 0%, #C99838 50%, #9E7422 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .sabor-gradient-text {
+            background: linear-gradient(135deg, #FFD07B 0%, #E87A1E 50%, #E5C158 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-border-glow {
+            border: 1px solid rgba(201, 152, 56, 0.4);
+            box-shadow: 0 4px 25px -2px rgba(201, 152, 56, 0.2);
+        }
+        .hero-pattern {
+            background-color: #3D0711;
+            background-image: radial-gradient(#C99838 0.65px, transparent 0.65px), radial-gradient(#C99838 0.65px, #3D0711 0.65px);
+            background-size: 26px 26px;
+            background-position: 0 0, 13px 13px;
+        }
+        .badge-pulse {
+            animation: pulse-glow 2s infinite;
+        }
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(232, 122, 30, 0.6); }
+            50% { box-shadow: 0 0 0 10px rgba(232, 122, 30, 0); }
+        }
+    </style>
+</head>
+<body class="bg-cream-50 text-gray-800 font-sans antialiased selection:bg-saffron-600 selection:text-white">
+
+    <!-- TOP ANNOUNCEMENT BAR (HIGHLIGHTING NEW SABOR LAUNCH) -->
+    <div class="bg-maroon-950 text-gold-400 text-xs sm:text-sm py-2 px-4 border-b border-gold-500/20">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-center sm:text-left">
+            <div class="flex items-center flex-wrap justify-center sm:justify-start gap-2">
+                <span class="inline-flex items-center gap-1.5 bg-saffron-600 text-white font-bold text-[11px] px-2.5 py-0.5 rounded-full uppercase tracking-wider badge-pulse">
+                    <i class="fa-solid fa-sparkles"></i> NEW LAUNCH
+                </span>
+                <span class="text-cream-100 font-medium">
+                    <strong>Sabor - A Unit of Kesar</strong> (1st Floor, S-16, Ramnagar Road) • Pure Veg Fine Dining &amp; Cafe
+                </span>
+                <span class="inline-flex items-center gap-1 bg-amber-500/20 text-gold-400 text-[11px] px-2 py-0.5 rounded border border-gold-500/30">
+                    <i class="fa-solid fa-star text-amber-400 text-[10px]"></i> 4.2★ (138+ Reviews)
+                </span>
+            </div>
+            <div class="flex items-center gap-4 text-xs shrink-0">
+                <a href="tel:01452601555" class="hover:text-white transition flex items-center gap-1">
+                    <i class="fa-solid fa-phone text-gold-500"></i> 0145-2601555
+                </a>
+                <span class="text-cream-200/40">•</span>
+                <span class="text-saffron-500 font-semibold"><i class="fa-regular fa-clock mr-1"></i> 8 AM - 11 PM</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN NAVBAR -->
+    <nav class="sticky top-0 z-40 bg-maroon-900/95 backdrop-blur-md border-b border-gold-500/30 text-white transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                
+                <!-- BRAND LOGO -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="w-12 h-12 rounded-full bg-gradient-to-br from-saffron-500 to-maroon-800 border-2 border-gold-400 flex items-center justify-center shadow-lg group-hover:scale-105 transition">
+                        <span class="font-serif text-2xl font-bold text-gold-400">K</span>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <span class="font-serif text-xl sm:text-2xl font-bold tracking-wide gold-gradient-text leading-none">KESAR</span>
+                            <span class="text-[10px] font-extrabold bg-saffron-600/30 text-saffron-400 px-1.5 py-0.5 rounded border border-saffron-500/40 uppercase">Ajmer</span>
+                        </div>
+                        <span class="text-[10px] tracking-widest text-cream-200/80 uppercase font-medium block mt-0.5">Sweets • Restaurant • Sabor Cafe</span>
+                    </div>
+                </a>
+
+                <!-- DESKTOP MENU -->
+                <div class="hidden lg:flex items-center gap-6 text-sm font-medium">
+                    <a href="#sweets-store" class="hover:text-gold-400 transition flex items-center gap-1.5 py-1 border-b-2 border-transparent hover:border-gold-400">
+                        <i class="fa-solid fa-cookie text-saffron-500"></i> Sweets Store
+                    </a>
+                    <a href="#sabor-spotlight" class="text-gold-400 font-bold transition flex items-center gap-1.5 py-1 px-3 bg-saffron-600/20 rounded-lg border border-saffron-500/40 hover:bg-saffron-600/30">
+                        <i class="fa-solid fa-utensils text-saffron-500"></i> Sabor 1st Floor <span class="bg-saffron-600 text-white text-[9px] px-1.5 py-0.5 rounded font-sans uppercase">New</span>
+                    </a>
+                    <a href="#restaurant-menu" class="hover:text-gold-400 transition flex items-center gap-1.5 py-1 border-b-2 border-transparent hover:border-gold-400">
+                        <i class="fa-solid fa-bowl-rice text-saffron-500"></i> Restaurant Menu
+                    </a>
+                    <a href="#banquet" class="hover:text-gold-400 transition flex items-center gap-1.5 py-1 border-b-2 border-transparent hover:border-gold-400">
+                        <i class="fa-solid fa-champagne-glasses text-saffron-500"></i> 40-Seater Banquet
+                    </a>
+                    <a href="#group-legacy" class="hover:text-gold-400 transition flex items-center gap-1.5 py-1 border-b-2 border-transparent hover:border-gold-400">
+                        <i class="fa-solid fa-building text-saffron-500"></i> Our Group
+                    </a>
+                </div>
+
+                <!-- RIGHT ACTION BUTTONS -->
+                <div class="flex items-center gap-3">
+                    <!-- CART TRIGGER BUTTON -->
+                    <button onclick="toggleCart()" class="relative p-2.5 rounded-full bg-maroon-800 hover:bg-saffron-700 text-gold-400 border border-gold-500/40 transition">
+                        <i class="fa-solid fa-bag-shopping text-lg"></i>
+                        <span id="cart-badge" class="absolute -top-1 -right-1 bg-saffron-600 text-white text-[10px] font-bold w-5 h-5 rounded-full flex items-center justify-center border border-maroon-900">0</span>
+                    </button>
+
+                    <!-- DIRECT WHATSAPP ORDER CTA -->
+                    <a href="https://wa.me/9101452601555?text=Hello%20Kesar%20Sweets,%20I%20want%20to%20order%20sweets%20or%20reserve%20a%20table." target="_blank" class="hidden sm:inline-flex items-center gap-2 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-xs sm:text-sm font-semibold px-4 py-2.5 rounded-full shadow-lg shadow-emerald-900/30 transition transform hover:-translate-y-0.5 border border-emerald-400/30">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> Direct Order
+                    </a>
+
+                    <!-- MOBILE MENU TOGGLE -->
+                    <button onclick="toggleMobileMenu()" class="lg:hidden p-2 rounded-lg bg-maroon-800 text-cream-100 hover:text-gold-400 border border-gold-500/30">
+                        <i class="fa-solid fa-bars text-xl" id="menu-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- MOBILE MENU DRAWER -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-maroon-950 border-b border-gold-500/20 px-6 py-5 space-y-4 text-sm font-medium">
+            <a href="#sabor-spotlight" onclick="toggleMobileMenu()" class="block text-gold-400 font-bold py-2 border-b border-maroon-800 flex items-center justify-between">
+                <span><i class="fa-solid fa-fire text-saffron-500 mr-2"></i> Sabor 1st Floor Fine Dining</span>
+                <span class="bg-saffron-600 text-white text-[10px] px-2 py-0.5 rounded">NEW</span>
+            </a>
+            <a href="#sweets-store" onclick="toggleMobileMenu()" class="block text-cream-100 hover:text-gold-400 py-2 border-b border-maroon-800">
+                <i class="fa-solid fa-cookie text-saffron-500 mr-2"></i> Sweets &amp; Namkeen Store
+            </a>
+            <a href="#restaurant-menu" onclick="toggleMobileMenu()" class="block text-cream-100 hover:text-gold-400 py-2 border-b border-maroon-800">
+                <i class="fa-solid fa-utensils text-saffron-500 mr-2"></i> Kesar Ground Floor Menu
+            </a>
+            <a href="#banquet" onclick="toggleMobileMenu()" class="block text-cream-100 hover:text-gold-400 py-2 border-b border-maroon-800">
+                <i class="fa-solid fa-champagne-glasses text-saffron-500 mr-2"></i> 40-Seater Banquet Hall
+            </a>
+            <a href="#group-legacy" onclick="toggleMobileMenu()" class="block text-cream-100 hover:text-gold-400 py-2 border-b border-maroon-800">
+                <i class="fa-solid fa-building text-saffron-500 mr-2"></i> Sister Brands (Brown Bake &amp; Kashish)
+            </a>
+            <div class="pt-2 flex flex-col gap-2">
+                <a href="https://wa.me/9101452601555?text=Hello%20Kesar%20Sweets,%20I%20want%20to%20order." target="_blank" class="w-full text-center bg-emerald-600 text-white font-semibold py-3 rounded-xl flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> Direct Order on WhatsApp
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION (HIGHLIGHTING DUAL OUTLETS: KESAR GROUND FLOOR & SABOR 1ST FLOOR) -->
+    <section class="relative bg-maroon-900 text-white overflow-hidden py-16 sm:py-24 lg:py-24 hero-pattern border-b-4 border-gold-500">
+        <div class="absolute inset-0 bg-gradient-to-r from-maroon-950 via-maroon-900/90 to-transparent z-0"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid lg:grid-cols-12 gap-12 items-center">
+            
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                
+                <div class="flex flex-wrap items-center justify-center lg:justify-start gap-2">
+                    <span class="inline-flex items-center gap-1.5 bg-saffron-600/20 text-saffron-400 text-xs px-3 py-1 rounded-full border border-saffron-600/40 font-semibold">
+                        <i class="fa-solid fa-crown text-saffron-500"></i> Pure Desi Ghee Sweets &amp; Dining
+                    </span>
+                    <span class="inline-flex items-center gap-1 bg-gold-500/20 text-gold-400 text-xs px-3 py-1 rounded-full border border-gold-500/40 font-semibold">
+                        <i class="fa-solid fa-star text-amber-400"></i> 4.2★ Sabor Cafe (138+ Reviews)
+                    </span>
+                </div>
+                
+                <h1 class="font-serif text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+                    Ajmer's Royal Heritage Taste, <br class="hidden sm:inline"/>
+                    <span class="gold-gradient-text">Now Introducing Sabor Fine Dining</span>
+                </h1>
+                
+                <p class="text-cream-200/90 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
+                    Experience pure bliss on <strong class="text-gold-400 font-semibold">Ground Floor</strong> with iconic <strong class="text-gold-400">Ajmeri Sohan Halwa</strong> &amp; fresh sweets, or step into <strong class="text-saffron-400 font-semibold">Sabor (1st Floor)</strong> for artisanal continental dishes, sizzlers, and mocktails in an exquisite veg cafe setting.
+                </p>
+
+                <!-- DUAL CTAS -->
+                <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                    <a href="#sabor-spotlight" class="w-full sm:w-auto bg-gradient-to-r from-saffron-600 to-saffron-700 hover:from-saffron-500 hover:to-saffron-600 text-white font-bold px-7 py-4 rounded-xl shadow-xl shadow-saffron-900/40 border border-gold-400/40 flex items-center justify-center gap-3 transform hover:-translate-y-1 transition">
+                        <i class="fa-solid fa-utensils"></i> Explore Sabor 1st Floor Cafe
+                    </a>
+                    <a href="#sweets-store" class="w-full sm:w-auto bg-maroon-800 hover:bg-maroon-700 text-gold-400 hover:text-white font-semibold px-7 py-4 rounded-xl border border-gold-500/40 flex items-center justify-center gap-3 transition">
+                        <i class="fa-solid fa-bag-shopping text-saffron-500"></i> Order Sweets on WhatsApp
+                    </a>
+                </div>
+
+                <!-- TRUST STRIP -->
+                <div class="pt-8 grid grid-cols-3 gap-4 border-t border-gold-500/20 max-w-lg mx-auto lg:mx-0">
+                    <div>
+                        <div class="font-serif text-2xl sm:text-3xl font-bold text-gold-400">100%</div>
+                        <div class="text-xs text-cream-200/70 uppercase tracking-wider">Veg Pure Standards</div>
+                    </div>
+                    <div class="border-x border-gold-500/20 px-2">
+                        <div class="font-serif text-2xl sm:text-3xl font-bold text-gold-400">₹200–400</div>
+                        <div class="text-xs text-cream-200/70 uppercase tracking-wider">Avg Cost for Two</div>
+                    </div>
+                    <div>
+                        <div class="font-serif text-2xl sm:text-3xl font-bold text-gold-400">40+</div>
+                        <div class="text-xs text-cream-200/70 uppercase tracking-wider">Banquet Capacity</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- HERO VISUAL HERO CAROUSEL CARD -->
+            <div class="lg:col-span-5 relative">
+                <div class="relative mx-auto max-w-md lg:max-w-none">
+                    <div class="absolute -inset-2 rounded-3xl bg-gradient-to-tr from-gold-500 to-saffron-600 opacity-30 blur-lg"></div>
+                    
+                    <div class="relative rounded-2xl overflow-hidden gold-border-glow bg-maroon-950 p-2 shadow-2xl">
+                        <!-- BANNER IMAGE SWITCHABLE OR HIGH QUALITY STYLISH SHOWCASE -->
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=900&auto=format&fit=crop" alt="Sabor A Unit of Kesar Ajmer Cafe Vibe" class="w-full h-80 sm:h-96 object-cover rounded-xl transform hover:scale-105 transition duration-700" onerror="this.src='https://placehold.co/600x400/5A111D/C99838?text=Sabor+A+Unit+Of+Kesar'">
+                        
+                        <!-- OVERLAY CARD -->
+                        <div class="absolute bottom-4 left-4 right-4 bg-maroon-950/95 backdrop-blur-md p-4 rounded-xl border border-gold-500/40 flex items-center justify-between">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-saffron-600/30 text-saffron-500 flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-wine-glass text-lg"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-sm text-gold-400">Sabor - A Unit of Kesar</h4>
+                                    <p class="text-xs text-cream-200/80">1st Floor • Ramnagar Road • 4.2★ Google Rated</p>
+                                </div>
+                            </div>
+                            <a href="#sabor-spotlight" class="text-xs font-bold text-saffron-400 bg-saffron-500/20 px-3 py-1.5 rounded-lg border border-saffron-500/30 hover:bg-saffron-600 hover:text-white transition">Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- NEW SPOTLIGHT SECTION: SABOR - A UNIT OF KESAR (1ST FLOOR) -->
+    <section id="sabor-spotlight" class="py-20 bg-maroon-950 text-white relative overflow-hidden border-b-4 border-saffron-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <span class="inline-flex items-center gap-2 bg-saffron-600/20 text-saffron-400 font-bold uppercase tracking-widest text-xs px-4 py-1.5 rounded-full border border-saffron-500/30">
+                    <i class="fa-solid fa-sparkles"></i> Ground Floor Sweets • 1st Floor Fine Dining
+                </span>
+                <h2 class="font-serif text-3xl sm:text-5xl font-extrabold text-white">
+                    Introducing <span class="sabor-gradient-text">Sabor - A Unit Of Kesar</span>
+                </h2>
+                <p class="text-cream-200/80 text-sm sm:text-base leading-relaxed">
+                    Ajmer's newest pure-veg culinary hot-spot on the 1st Floor above Kesar Sweets (S-16, Ramnagar Road). A cozy cafe ambiance offering sizzlers, continental delights, gourmet pizzas, and handcrafted mocktails.
+                </p>
+                <div class="flex flex-wrap justify-center items-center gap-6 text-xs text-gold-400 pt-2 font-medium">
+                    <span><i class="fa-solid fa-star text-amber-400 mr-1"></i> 4.2 Rating (138+ Reviews)</span>
+                    <span>•</span>
+                    <span><i class="fa-solid fa-indian-rupee-sign text-saffron-500 mr-1"></i> ₹200–400 Avg for two</span>
+                    <span>•</span>
+                    <span><i class="fa-solid fa-location-dot text-saffron-500 mr-1"></i> 1st Floor, S-16 Ramnagar Road</span>
+                </div>
+            </div>
+
+            <!-- SABOR HIGHLIGHT CARDS GRID -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                
+                <!-- CARD 1 -->
+                <div class="bg-maroon-900/80 rounded-2xl p-6 border border-gold-500/20 hover:border-gold-500 transition group hover:-translate-y-1">
+                    <div class="w-12 h-12 rounded-xl bg-saffron-600/20 text-saffron-400 flex items-center justify-center text-2xl mb-4 group-hover:bg-saffron-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-pizza-slice"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-white mb-2">Wood-Fired Style Pizzas</h3>
+                    <p class="text-xs text-cream-200/70 leading-relaxed">Hand-tossed thin crust pizzas topped with fresh mozzarella, exotic veggies &amp; herbs.</p>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="bg-maroon-900/80 rounded-2xl p-6 border border-gold-500/20 hover:border-gold-500 transition group hover:-translate-y-1">
+                    <div class="w-12 h-12 rounded-xl bg-saffron-600/20 text-saffron-400 flex items-center justify-center text-2xl mb-4 group-hover:bg-saffron-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-martini-glass-citrus"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-white mb-2">Artisanal Mocktails</h3>
+                    <p class="text-xs text-cream-200/70 leading-relaxed">Refreshing signature coolers, Kesar mojitos &amp; fruit fusions created live at the cafe bar.</p>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="bg-maroon-900/80 rounded-2xl p-6 border border-gold-500/20 hover:border-gold-500 transition group hover:-translate-y-1">
+                    <div class="w-12 h-12 rounded-xl bg-saffron-600/20 text-saffron-400 flex items-center justify-center text-2xl mb-4 group-hover:bg-saffron-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-fire-burner"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-white mb-2">Sizzling Sizzlers</h3>
+                    <p class="text-xs text-cream-200/70 leading-relaxed">Paneer tikka sizzlers, Mexican rice bowls &amp; Chinese sizzler platters served piping hot.</p>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="bg-maroon-900/80 rounded-2xl p-6 border border-gold-500/20 hover:border-gold-500 transition group hover:-translate-y-1">
+                    <div class="w-12 h-12 rounded-xl bg-saffron-600/20 text-saffron-400 flex items-center justify-center text-2xl mb-4 group-hover:bg-saffron-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-couch"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-white mb-2">Chic Cafe Atmosphere</h3>
+                    <p class="text-xs text-cream-200/70 leading-relaxed">Modern cozy seating ideal for couples, small family dinners, and youth hangout sessions.</p>
+                </div>
+
+            </div>
+
+            <!-- SABOR TABLE RESERVATION / MENU INQUIRY BANNER -->
+            <div class="bg-gradient-to-r from-maroon-900 via-maroon-800 to-saffron-900/40 rounded-3xl p-6 sm:p-10 gold-border-glow flex flex-col md:flex-row items-center justify-between gap-8">
+                <div class="space-y-2 text-center md:text-left">
+                    <span class="text-xs font-bold text-saffron-400 uppercase tracking-wider">Fast &amp; Easy Reservation</span>
+                    <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white">Want to Book a Table or Private Booth at Sabor?</h3>
+                    <p class="text-xs sm:text-sm text-cream-200/80 max-w-xl">Reserve your table on the 1st Floor directly via WhatsApp to avoid waiting during peak weekend hours.</p>
+                </div>
+                <a href="https://wa.me/9101452601555?text=Hello%20Sabor%20(A%20Unit%20of%20Kesar),%20I%20want%20to%20reserve%20a%20table%20on%20the%201st%20Floor." target="_blank" class="shrink-0 bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-7 py-4 rounded-xl shadow-lg transition flex items-center gap-3">
+                    <i class="fa-brands fa-whatsapp text-xl"></i> Book Sabor Table on WhatsApp
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ZERO COMMISSION SWEETS & NAMKEEN STORE SECTION -->
+    <section id="sweets-store" class="py-20 bg-cream-100 border-b border-amber-200/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto space-y-3 mb-12">
+                <span class="text-saffron-700 font-bold uppercase tracking-widest text-xs bg-saffron-500/10 px-3 py-1 rounded-full border border-saffron-600/20">
+                    Ground Floor Outlet • Direct WhatsApp Store
+                </span>
+                <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-maroon-900">
+                    Order Fresh Sweets &amp; Namkeen
+                </h2>
+                <p class="text-gray-600 text-sm sm:text-base">
+                    Select your weight preferences and directly place your order on WhatsApp. Freshly prepared in pure Desi Ghee.
+                </p>
+            </div>
+
+            <!-- CATEGORY FILTER TABS -->
+            <div class="flex flex-wrap justify-center gap-2 sm:gap-4 mb-10">
+                <button onclick="filterSweets('all')" class="sweet-tab active px-5 py-2.5 rounded-full text-sm font-semibold transition bg-maroon-900 text-gold-400 shadow-md">
+                    All Sweets
+                </button>
+                <button onclick="filterSweets('ghee')" class="sweet-tab px-5 py-2.5 rounded-full text-sm font-semibold transition bg-white text-gray-700 hover:bg-maroon-900 hover:text-gold-400 border border-gray-200">
+                    Desi Ghee Specials
+                </button>
+                <button onclick="filterSweets('kaju')" class="sweet-tab px-5 py-2.5 rounded-full text-sm font-semibold transition bg-white text-gray-700 hover:bg-maroon-900 hover:text-gold-400 border border-gray-200">
+                    Kaju &amp; Dry Fruit
+                </button>
+                <button onclick="filterSweets('hampers')" class="sweet-tab px-5 py-2.5 rounded-full text-sm font-semibold transition bg-white text-gray-700 hover:bg-maroon-900 hover:text-gold-400 border border-gray-200">
+                    Festive Gift Boxes
+                </button>
+            </div>
+
+            <!-- PRODUCTS GRID -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" id="sweets-grid">
+                
+                <!-- PRODUCT 1 -->
+                <div class="sweet-card kaju bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-amber-200/70 flex flex-col justify-between" data-category="kaju" data-baseprice="950" data-name="Special Kaju Katli">
+                    <div>
+                        <div class="relative h-52 overflow-hidden bg-gray-100">
+                            <img src="https://static.toiimg.com/thumb/55048826.cms?width=1200&height=900" alt="Kaju Katli" class="w-full h-full object-cover transform hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x300/5A111D/FFFFFF?text=Kaju+Katli'">
+                            <span class="absolute top-3 left-3 bg-saffron-600 text-white text-xs font-bold px-2.5 py-1 rounded-md shadow">Bestseller</span>
+                            <span class="absolute top-3 right-3 bg-emerald-600 text-white text-xs font-bold px-2 py-0.5 rounded-full flex items-center gap-1">
+                                <i class="fa-solid fa-circle text-[8px]"></i> Pure Veg
+                            </span>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="font-serif text-xl font-bold text-maroon-900 mb-1">Special Kaju Katli</h3>
+                            <p class="text-xs text-gray-500 mb-4">Made with premium Goan cashews and pure silver vark.</p>
+                            
+                            <!-- WEIGHT SELECTOR -->
+                            <div class="flex items-center justify-between bg-cream-100 p-2.5 rounded-xl border border-amber-200 mb-4">
+                                <span class="text-xs font-semibold text-gray-600">Select Weight:</span>
+                                <select onchange="updatePrice(this)" class="weight-select bg-white text-sm font-bold text-maroon-900 px-3 py-1 rounded-lg border border-gray-300 focus:outline-none focus:border-saffron-600">
+                                    <option value="0.25">250 grams</option>
+                                    <option value="0.5">500 grams</option>
+                                    <option value="1" selected>1 kg</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-5 pb-5 flex items-center justify-between border-t border-gray-100 pt-4">
+                        <div>
+                            <span class="text-xs text-gray-400 block">Price</span>
+                            <span class="price-display text-2xl font-extrabold text-maroon-900">₹950</span>
+                        </div>
+                        <button onclick="addToCart(this)" class="bg-saffron-600 hover:bg-saffron-700 text-white text-sm font-semibold px-4 py-2.5 rounded-xl shadow-md transition flex items-center gap-2">
+                            <i class="fa-solid fa-plus"></i> Add to Order
+                        </button>
+                    </div>
+                </div>
+
+                <!-- PRODUCT 2 -->
+                <div class="sweet-card ghee bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-amber-200/70 flex flex-col justify-between" data-category="ghee" data-baseprice="740" data-name="Ajmeri Special Sohan Halwa">
+                    <div>
+                        <div class="relative h-52 overflow-hidden bg-gray-100">
+                            <img src="https://2.imimg.com/data2/CT/VN/IMFCPFRM-2082056/717556.jpg" alt="Sohan Halwa" class="w-full h-full object-cover transform hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x300/5A111D/FFFFFF?text=Sohan+Halwa'">
+                            <span class="absolute top-3 left-3 bg-maroon-800 text-gold-400 text-xs font-bold px-2.5 py-1 rounded-md shadow border border-gold-500/40">Heritage Specialty</span>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="font-serif text-xl font-bold text-maroon-900 mb-1">Ajmeri Special Sohan Halwa</h3>
+                            <p class="text-xs text-gray-500 mb-4">Traditional crunchy disc halwa rich in almonds, pistachios &amp; pure ghee.</p>
+                            
+                            <div class="flex items-center justify-between bg-cream-100 p-2.5 rounded-xl border border-amber-200 mb-4">
+                                <span class="text-xs font-semibold text-gray-600">Select Weight:</span>
+                                <select onchange="updatePrice(this)" class="weight-select bg-white text-sm font-bold text-maroon-900 px-3 py-1 rounded-lg border border-gray-300 focus:outline-none focus:border-saffron-600">
+                                    <option value="0.25">250 grams</option>
+                                    <option value="0.5">500 grams</option>
+                                    <option value="1" selected>1 kg</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-5 pb-5 flex items-center justify-between border-t border-gray-100 pt-4">
+                        <div>
+                            <span class="text-xs text-gray-400 block">Price</span>
+                            <span class="price-display text-2xl font-extrabold text-maroon-900">₹740</span>
+                        </div>
+                        <button onclick="addToCart(this)" class="bg-saffron-600 hover:bg-saffron-700 text-white text-sm font-semibold px-4 py-2.5 rounded-xl shadow-md transition flex items-center gap-2">
+                            <i class="fa-solid fa-plus"></i> Add to Order
+                        </button>
+                    </div>
+                </div>
+
+                <!-- PRODUCT 3 -->
+                <div class="sweet-card ghee bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-amber-200/70 flex flex-col justify-between" data-category="ghee" data-baseprice="680" data-name="Rajasthani Kesar Rabdi Ghewar">
+                    <div>
+                        <div class="relative h-52 overflow-hidden bg-gray-100">
+                            <img src="https://m.media-amazon.com/images/I/71tJHRb7K6L._AC_UF894,1000_QL80_.jpg" alt="Rajasthani Ghewar" class="w-full h-full object-cover transform hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x300/5A111D/FFFFFF?text=Rajasthani+Ghewar'">
+                            <span class="absolute top-3 left-3 bg-saffron-600 text-white text-xs font-bold px-2.5 py-1 rounded-md shadow">Seasonal Pick</span>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="font-serif text-xl font-bold text-maroon-900 mb-1">Rajasthani Kesar Rabdi Ghewar</h3>
+                            <p class="text-xs text-gray-500 mb-4">Crispy honeycomb disc topped with saffron rabdi &amp; pistachios.</p>
+                            
+                            <div class="flex items-center justify-between bg-cream-100 p-2.5 rounded-xl border border-amber-200 mb-4">
+                                <span class="text-xs font-semibold text-gray-600">Select Weight:</span>
+                                <select onchange="updatePrice(this)" class="weight-select bg-white text-sm font-bold text-maroon-900 px-3 py-1 rounded-lg border border-gray-300 focus:outline-none focus:border-saffron-600">
+                                    <option value="0.25">250 grams</option>
+                                    <option value="0.5">500 grams</option>
+                                    <option value="1" selected>1 kg</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-5 pb-5 flex items-center justify-between border-t border-gray-100 pt-4">
+                        <div>
+                            <span class="text-xs text-gray-400 block">Price</span>
+                            <span class="price-display text-2xl font-extrabold text-maroon-900">₹680</span>
+                        </div>
+                        <button onclick="addToCart(this)" class="bg-saffron-600 hover:bg-saffron-700 text-white text-sm font-semibold px-4 py-2.5 rounded-xl shadow-md transition flex items-center gap-2">
+                            <i class="fa-solid fa-plus"></i> Add to Order
+                        </button>
+                    </div>
+                </div>
+
+                <!-- PRODUCT 4 -->
+                <div class="sweet-card ghee bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-amber-200/70 flex flex-col justify-between" data-category="ghee" data-baseprice="560" data-name="Desi Ghee Motichoor Laddu">
+                    <div>
+                        <div class="relative h-52 overflow-hidden bg-gray-100">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnf0uhD63aWJWSorsS2lhz9FlmapNS_e457fdrPjNsKdGjRjIiG3J98vI&s=10" alt="Motichoor Laddu" class="w-full h-full object-cover transform hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x300/5A111D/FFFFFF?text=Motichoor+Laddu'">
+                        </div>
+                        <div class="p-5">
+                            <h3 class="font-serif text-xl font-bold text-maroon-900 mb-1">Desi Ghee Motichoor Laddu</h3>
+                            <p class="text-xs text-gray-500 mb-4">Fine boondi laddus made with pure cow ghee and fragrant cardamom.</p>
+                            
+                            <div class="flex items-center justify-between bg-cream-100 p-2.5 rounded-xl border border-amber-200 mb-4">
+                                <span class="text-xs font-semibold text-gray-600">Select Weight:</span>
+                                <select onchange="updatePrice(this)" class="weight-select bg-white text-sm font-bold text-maroon-900 px-3 py-1 rounded-lg border border-gray-300 focus:outline-none focus:border-saffron-600">
+                                    <option value="0.25">250 grams</option>
+                                    <option value="0.5">500 grams</option>
+                                    <option value="1" selected>1 kg</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-5 pb-5 flex items-center justify-between border-t border-gray-100 pt-4">
+                        <div>
+                            <span class="text-xs text-gray-400 block">Price</span>
+                            <span class="price-display text-2xl font-extrabold text-maroon-900">₹560</span>
+                        </div>
+                        <button onclick="addToCart(this)" class="bg-saffron-600 hover:bg-saffron-700 text-white text-sm font-semibold px-4 py-2.5 rounded-xl shadow-md transition flex items-center gap-2">
+                            <i class="fa-solid fa-plus"></i> Add to Order
+                        </button>
+                    </div>
+                </div>
+
+                <!-- PRODUCT 5 -->
+                <div class="sweet-card ghee bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-amber-200/70 flex flex-col justify-between" data-category="ghee" data-baseprice="620" data-name="Fresh Kesari Rasmalai">
+                    <div>
+                        <div class="relative h-52 overflow-hidden bg-gray-100">
+                            <img src="https://cdn.zeptonow.com/production/ik-seo/cms/product_variant/342fce76-fcd6-4fd1-afb1-ab3429abcc52/Kesari-Rasmalai-2-pieces-x-2.jpg" alt="Kesari Rasmalai" class="w-full h-full object-cover transform hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x300/5A111D/FFFFFF?text=Kesari+Rasmalai'">
+                        </div>
+                        <div class="p-5">
+                            <h3 class="font-serif text-xl font-bold text-maroon-900 mb-1">Kesari Rasmalai (1kg / ~12 pcs)</h3>
+                            <p class="text-xs text-gray-500 mb-4">Soft cottage cheese discs soaked in saffron-infused chilled milk.</p>
+                            
+                            <div class="flex items-center justify-between bg-cream-100 p-2.5 rounded-xl border border-amber-200 mb-4">
+                                <span class="text-xs font-semibold text-gray-600">Select Weight:</span>
+                                <select onchange="updatePrice(this)" class="weight-select bg-white text-sm font-bold text-maroon-900 px-3 py-1 rounded-lg border border-gray-300 focus:outline-none focus:border-saffron-600">
+                                    <option value="0.25">250 grams</option>
+                                    <option value="0.5">500 grams</option>
+                                    <option value="1" selected>1 kg</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-5 pb-5 flex items-center justify-between border-t border-gray-100 pt-4">
+                        <div>
+                            <span class="text-xs text-gray-400 block">Price</span>
+                            <span class="price-display text-2xl font-extrabold text-maroon-900">₹620</span>
+                        </div>
+                        <button onclick="addToCart(this)" class="bg-saffron-600 hover:bg-saffron-700 text-white text-sm font-semibold px-4 py-2.5 rounded-xl shadow-md transition flex items-center gap-2">
+                            <i class="fa-solid fa-plus"></i> Add to Order
+                        </button>
+                    </div>
+                </div>
+
+                <!-- PRODUCT 6 -->
+                <div class="sweet-card hampers bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-amber-200/70 flex flex-col justify-between" data-category="hampers" data-baseprice="1250" data-name="Royal Kesar Celebration Gift Box">
+                    <div>
+                        <div class="relative h-52 overflow-hidden bg-gray-100">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7X0jydYJrCB8p41URCrZABicFBwKH3G7VAAyzIdwcnTVYKnymWd5Mxx4&s=10" alt="Festive Gift Box" class="w-full h-full object-cover transform hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x300/5A111D/FFFFFF?text=Royal+Festive+Box'">
+                            <span class="absolute top-3 left-3 bg-gold-500 text-maroon-950 font-bold text-xs px-2.5 py-1 rounded-md shadow">Gift Packaging</span>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="font-serif text-xl font-bold text-maroon-900 mb-1">Royal Kesar Celebration Gift Box</h3>
+                            <p class="text-xs text-gray-500 mb-4">Includes Kaju Katli (250g), Sohan Halwa (250g), Roasted Almonds &amp; Namkeen.</p>
+                            
+                            <div class="flex items-center justify-between bg-cream-100 p-2.5 rounded-xl border border-amber-200 mb-4">
+                                <span class="text-xs font-semibold text-gray-600">Package:</span>
+                                <span class="text-xs font-bold text-maroon-900">Custom Rigid Box</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-5 pb-5 flex items-center justify-between border-t border-gray-100 pt-4">
+                        <div>
+                            <span class="text-xs text-gray-400 block">Flat Price</span>
+                            <span class="price-display text-2xl font-extrabold text-maroon-900">₹1,250</span>
+                        </div>
+                        <button onclick="addToCart(this)" class="bg-saffron-600 hover:bg-saffron-700 text-white text-sm font-semibold px-4 py-2.5 rounded-xl shadow-md transition flex items-center gap-2">
+                            <i class="fa-solid fa-plus"></i> Add to Order
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- GROUND FLOOR RESTAURANT & CHAAT EXPERIENCE SECTION -->
+    <section id="restaurant-menu" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="grid lg:grid-cols-12 gap-12 items-center mb-16">
+                <div class="lg:col-span-6 space-y-4">
+                    <span class="text-saffron-600 font-bold tracking-widest text-xs uppercase">Kesar Ground Floor Dining</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-maroon-900 leading-tight">
+                        North &amp; South Indian, Chinese &amp; Famous Ajmeri Chaat
+                    </h2>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                        At Kesar Sweets &amp; Restaurant (Ground Floor), every meal is prepared with fresh ingredients, pure spices, and 100% vegetarian hygiene. Enjoy family dining or order spill-proof compartment thalis directly to your home.
+                    </p>
+
+                    <!-- HIGHLIGHT FEATURES -->
+                    <div class="grid grid-cols-2 gap-4 pt-4">
+                        <div class="flex items-start gap-3 p-3 bg-cream-100 rounded-xl border border-amber-200">
+                            <div class="w-8 h-8 rounded-lg bg-saffron-600 text-white flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-box-open"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-sm text-maroon-900">Spill-Proof Delivery</h4>
+                                <p class="text-xs text-gray-500">Compartment boxes for gravy curries &amp; thalis</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3 p-3 bg-cream-100 rounded-xl border border-amber-200">
+                            <div class="w-8 h-8 rounded-lg bg-maroon-800 text-gold-400 flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-utensils"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-sm text-maroon-900">Sabor 1st Floor Cafe</h4>
+                                <p class="text-xs text-gray-500">Continental &amp; Wood-fired style snacks upstairs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6">
+                    <div class="grid grid-cols-2 gap-4">
+                        <img src="https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?q=80&w=500&auto=format&fit=crop" alt="North Indian Deluxe Thali" class="rounded-2xl shadow-lg h-56 w-full object-cover border-2 border-gold-500/20" onerror="this.src='https://placehold.co/400x300/5A111D/FFFFFF?text=Deluxe+Thali'">
+                        <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=500&auto=format&fit=crop" alt="Ajmeri Chaat Special" class="rounded-2xl shadow-lg h-56 w-full object-cover border-2 border-gold-500/20" onerror="this.src='https://placehold.co/400x300/5A111D/FFFFFF?text=Ajmeri+Chaat'">
+                    </div>
+                </div>
+            </div>
+
+            <!-- DIGITAL MENU HIGHLIGHTS -->
+            <div class="bg-maroon-950 text-white rounded-3xl p-6 sm:p-10 gold-border-glow">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-b border-gold-500/20 pb-6 mb-8">
+                    <div>
+                        <h3 class="font-serif text-2xl font-bold gold-gradient-text">Ground Floor Popular Specials</h3>
+                        <p class="text-xs text-cream-200/70">Dine-in or Home Takeaway • Pure Vegetarian</p>
+                    </div>
+                    <a href="https://wa.me/9101452601555?text=Please%20send%20full%20restaurant%20and%20Sabor%20menu" target="_blank" class="bg-saffron-600 hover:bg-saffron-500 text-white text-xs font-bold px-4 py-2.5 rounded-xl border border-gold-400/30 flex items-center gap-2">
+                        <i class="fa-solid fa-file-pdf"></i> Request Full PDF Menu
+                    </a>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- MENU ITEM 1 -->
+                    <div class="bg-maroon-900/60 p-4 rounded-xl border border-gold-500/20 flex justify-between items-start">
+                        <div>
+                            <span class="text-xs font-bold text-gold-400">THALI SPECIAL</span>
+                            <h4 class="font-bold text-white text-base">Kesar Special Executive Thali</h4>
+                            <p class="text-xs text-cream-200/70 mt-1">Paneer Butter Masala, Dal Makhani, Mix Veg, Butter Naan, Rice, Sweet &amp; Raita.</p>
+                        </div>
+                        <span class="text-saffron-500 font-extrabold text-base ml-2">₹280</span>
+                    </div>
+
+                    <!-- MENU ITEM 2 -->
+                    <div class="bg-maroon-900/60 p-4 rounded-xl border border-gold-500/20 flex justify-between items-start">
+                        <div>
+                            <span class="text-xs font-bold text-gold-400">STREET CHAAT</span>
+                            <h4 class="font-bold text-white text-base">Dahi Bhalla Papdi Chaat</h4>
+                            <p class="text-xs text-cream-200/70 mt-1">Chilled sweet curd, spicy mint chutney, tangy tamarind &amp; roasted cumin.</p>
+                        </div>
+                        <span class="text-saffron-500 font-extrabold text-base ml-2">₹130</span>
+                    </div>
+
+                    <!-- MENU ITEM 3 -->
+                    <div class="bg-maroon-900/60 p-4 rounded-xl border border-gold-500/20 flex justify-between items-start">
+                        <div>
+                            <span class="text-xs font-bold text-gold-400">SOUTH INDIAN</span>
+                            <h4 class="font-bold text-white text-base">Special Masala Butter Dosa</h4>
+                            <p class="text-xs text-cream-200/70 mt-1">Crispy golden dosa served with authentic Sambhar &amp; 2 coconut chutneys.</p>
+                        </div>
+                        <span class="text-saffron-500 font-extrabold text-base ml-2">₹160</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 40-SEATER BANQUET HALL & CATERING INQUIRY SECTION -->
+    <section id="banquet" class="py-20 bg-cream-100 relative overflow-hidden border-t border-amber-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="inline-block bg-maroon-900 text-gold-400 text-xs font-bold px-3 py-1 rounded-full border border-gold-500/30">
+                        Celebrations &amp; Events
+                    </span>
+                    
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-maroon-900">
+                        Host Your Special Occasions in Our <span class="text-saffron-700">40-Seater AC Banquet Hall</span>
+                    </h2>
+                    
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                        Planning a birthday party, anniversary, kitty party, or corporate lunch in Ajmer? Kesar Sweets &amp; Restaurant (or Sabor 1st Floor Cafe) provides an elegant setting with customized Pure Veg buffet menus.
+                    </p>
+
+                    <div class="space-y-3 pt-2">
+                        <div class="flex items-center gap-3 text-sm font-semibold text-gray-800">
+                            <i class="fa-solid fa-circle-check text-saffron-600"></i> Fully Air-Conditioned Hall with Audio/Visual setup
+                        </div>
+                        <div class="flex items-center gap-3 text-sm font-semibold text-gray-800">
+                            <i class="fa-solid fa-circle-check text-saffron-600"></i> Tailor-made Pure Veg Buffet Menus (Starter to Sweets)
+                        </div>
+                        <div class="flex items-center gap-3 text-sm font-semibold text-gray-800">
+                            <i class="fa-solid fa-circle-check text-saffron-600"></i> Option to book Sabor 1st Floor Cafe for Youth Parties
+                        </div>
+                    </div>
+
+                    <!-- DIRECT CALL FOR INQUIRY -->
+                    <div class="p-4 bg-white rounded-2xl border border-amber-300 shadow-sm flex items-center justify-between">
+                        <div>
+                            <span class="text-xs text-gray-400 font-semibold block uppercase">For Immediate Banquet Booking</span>
+                            <span class="font-bold text-maroon-900 text-lg">Call: 0145-2601555 / 2610555</span>
+                        </div>
+                        <a href="tel:01452601555" class="bg-maroon-900 hover:bg-maroon-800 text-gold-400 p-3 rounded-xl">
+                            <i class="fa-solid fa-phone text-lg"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- BANQUET INQUIRY FORM CARD -->
+                <div class="lg:col-span-6" id="catering">
+                    <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border-2 border-gold-500/30">
+                        <h3 class="font-serif text-2xl font-bold text-maroon-900 mb-2">Check Event Availability</h3>
+                        <p class="text-xs text-gray-500 mb-6">Fill out details below for an instant WhatsApp quotation.</p>
+
+                        <form id="banquetForm" onsubmit="handleBanquetSubmit(event)" class="space-y-4">
+                            <div>
+                                <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Your Full Name</label>
+                                <input type="text" id="banquetName" required placeholder="e.g. Rahul Sharma" class="w-full px-4 py-3 rounded-xl border border-gray-300 text-sm focus:outline-none focus:border-saffron-600 bg-cream-50">
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Phone Number</label>
+                                    <input type="tel" id="banquetPhone" required placeholder="10-digit Mobile" class="w-full px-4 py-3 rounded-xl border border-gray-300 text-sm focus:outline-none focus:border-saffron-600 bg-cream-50">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Event Date</label>
+                                    <input type="date" id="banquetDate" required class="w-full px-4 py-3 rounded-xl border border-gray-300 text-sm focus:outline-none focus:border-saffron-600 bg-cream-50">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Venue Choice</label>
+                                    <select id="banquetVenue" class="w-full px-4 py-3 rounded-xl border border-gray-300 text-sm focus:outline-none focus:border-saffron-600 bg-cream-50">
+                                        <option value="Sabor 1st Floor Cafe">Sabor (1st Floor Cafe)</option>
+                                        <option value="40-Seater Banquet Hall">40-Seater Banquet Hall</option>
+                                        <option value="Outdoor Catering Venue">Outdoor Catering</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Expected Guests</label>
+                                    <select id="banquetGuests" class="w-full px-4 py-3 rounded-xl border border-gray-300 text-sm focus:outline-none focus:border-saffron-600 bg-cream-50">
+                                        <option value="15 - 25 Guests">15 - 25 Guests</option>
+                                        <option value="25 - 40 Guests (Hall Capacity)">25 - 40 Guests</option>
+                                        <option value="40+ Guests (Outdoor Catering)">40+ Guests (Outdoor)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="w-full bg-gradient-to-r from-saffron-600 to-maroon-800 hover:from-saffron-500 hover:to-maroon-700 text-white font-bold py-4 rounded-xl shadow-lg transition flex items-center justify-center gap-2">
+                                <i class="fa-brands fa-whatsapp text-lg"></i> Send Inquiry on WhatsApp
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SISTER BRANDS & GROUP LEGACY SECTION -->
+    <section id="group-legacy" class="py-16 bg-maroon-900 text-white border-b border-gold-500/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            
+            <span class="text-gold-400 font-bold uppercase tracking-widest text-xs">A Legacy of Hospitality in Ajmer</span>
+            <h2 class="font-serif text-3xl font-bold mt-2 mb-10 gold-gradient-text">Our Family Brands &amp; Outlets</h2>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <!-- BRAND 1 (SABOR) -->
+                <div class="bg-maroon-950/90 p-6 rounded-2xl border-2 border-saffron-500/60 shadow-xl relative overflow-hidden group hover:scale-105 transition">
+                    <span class="absolute top-0 right-0 bg-saffron-600 text-white text-[9px] font-bold px-2 py-0.5 rounded-bl">NEW</span>
+                    <div class="w-12 h-12 mx-auto rounded-full bg-saffron-600/20 text-saffron-400 flex items-center justify-center text-xl mb-3">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <h4 class="font-serif font-bold text-lg text-white">Sabor Cafe</h4>
+                    <p class="text-xs text-saffron-400 mt-1 font-semibold">1st Floor • Ramnagar Rd</p>
+                </div>
+
+                <!-- BRAND 2 -->
+                <div class="bg-maroon-950/80 p-6 rounded-2xl border border-gold-500/20 hover:border-gold-500 transition">
+                    <div class="w-12 h-12 mx-auto rounded-full bg-gold-500/10 text-gold-400 flex items-center justify-center text-xl mb-3">
+                        <i class="fa-solid fa-cookie"></i>
+                    </div>
+                    <h4 class="font-serif font-bold text-lg text-white">Kesar Sweets</h4>
+                    <p class="text-xs text-cream-200/60 mt-1">Ground Floor Outlet</p>
+                </div>
+
+                <!-- BRAND 3 -->
+                <div class="bg-maroon-950/80 p-6 rounded-2xl border border-gold-500/20 hover:border-gold-500 transition">
+                    <div class="w-12 h-12 mx-auto rounded-full bg-gold-500/10 text-gold-400 flex items-center justify-center text-xl mb-3">
+                        <i class="fa-solid fa-cake-candles"></i>
+                    </div>
+                    <h4 class="font-serif font-bold text-lg text-white">Brown Bake</h4>
+                    <p class="text-xs text-cream-200/60 mt-1">Bakery &amp; Cafe</p>
+                </div>
+
+                <!-- BRAND 4 -->
+                <div class="bg-maroon-950/80 p-6 rounded-2xl border border-gold-500/20 hover:border-gold-500 transition">
+                    <div class="w-12 h-12 mx-auto rounded-full bg-gold-500/10 text-gold-400 flex items-center justify-center text-xl mb-3">
+                        <i class="fa-solid fa-bowl-food"></i>
+                    </div>
+                    <h4 class="font-serif font-bold text-lg text-white">Ish Vijay Food Products</h4>
+                    <p class="text-xs text-cream-200/60 mt-1">Indian Fine Dining</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER WITH GOOGLE MAP EMBED CARD -->
+    <footer class="bg-maroon-950 text-cream-100 pt-16 pb-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 border-b border-gold-500/20 pb-12">
+            
+            <!-- BRAND INFO -->
+            <div class="lg:col-span-4 space-y-4">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-full bg-saffron-600 text-gold-400 flex items-center justify-center font-serif text-xl font-bold border border-gold-400">K</div>
+                    <span class="font-serif text-2xl font-bold gold-gradient-text">KESAR &amp; SABOR</span>
+                </div>
+                <p class="text-xs text-cream-200/70 leading-relaxed">
+                    Kesar Sweets &amp; Restaurant (Ground Floor) and Sabor - A Unit Of Kesar (1st Floor) offer Ajmer's finest pure desi ghee sweets and vegetarian fine-dining cafe experience.
+                </p>
+                <div class="pt-2 text-xs text-gold-400 flex items-center gap-2">
+                    <i class="fa-solid fa-shield-halved text-saffron-500"></i> FSSAI Certified • 100% Pure Vegetarian
+                </div>
+            </div>
+
+            <!-- QUICK CONTACT INFO -->
+            <div class="lg:col-span-4 space-y-3">
+                <h4 class="font-serif text-lg font-bold text-gold-400 mb-3">Contact &amp; Location</h4>
+                <p class="text-xs text-cream-200/80 flex items-start gap-2">
+                    <i class="fa-solid fa-location-dot text-saffron-500 mt-1"></i>
+                    <span>S-16, Ramnagar Road (HBU Nagar Main Road), Ajmer, Rajasthan - 305001</span>
+                </p>
+                <p class="text-xs text-cream-200/80 flex items-center gap-2">
+                    <i class="fa-solid fa-phone text-saffron-500"></i>
+                    <span>0145-2601555, 0145-2610555</span>
+                </p>
+                <p class="text-xs text-cream-200/80 flex items-center gap-2">
+                    <i class="fa-solid fa-envelope text-saffron-500"></i>
+                    <span>info@kesarajmer.com</span>
+                </p>
+            </div>
+
+            <!-- GOOGLE MAP CARD EMBED -->
+            <div class="lg:col-span-4">
+                <div class="rounded-2xl overflow-hidden border border-gold-500/30 bg-maroon-900 p-2 shadow-lg">
+                    <iframe class="w-full h-40 rounded-xl" src="https://maps.google.com/maps?q=S-16%20Ramnagar%20Road%20Ajmer&t=&z=14&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <div class="p-2 text-center">
+                        <a href="https://maps.google.com/maps?q=S-16+Ramnagar+Road+Ajmer" target="_blank" class="text-xs text-gold-400 hover:text-white font-semibold">
+                            <i class="fa-solid fa-diamond-turn-right mr-1"></i> Open Direct Directions in Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 flex flex-col sm:flex-row justify-between items-center text-xs text-cream-200/50 gap-4">
+            <p>© 2026 Kesar Sweets &amp; Sabor Cafe Ajmer. All rights reserved.</p>
+            <p class="text-gold-400/80">Proposed Modern Redesign Demo • Handcrafted for Ajay Thakur Sir</p>
+        </div>
+    </footer>
+
+    <!-- SLIDE-OUT CART MODAL -->
+    <div id="cart-drawer" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden transition-opacity">
+        <div class="absolute right-0 top-0 h-full w-full max-w-md bg-white shadow-2xl flex flex-col justify-between">
+            
+            <!-- CART HEADER -->
+            <div class="bg-maroon-900 text-white p-5 flex items-center justify-between border-b border-gold-500/30">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-basket-shopping text-gold-400"></i>
+                    <h3 class="font-serif text-lg font-bold">Your Sweet Order Box</h3>
+                </div>
+                <button onclick="toggleCart()" class="text-cream-200 hover:text-white p-1">
+                    <i class="fa-solid fa-xmark text-xl"></i>
+                </button>
+            </div>
+
+            <!-- CART ITEMS LIST -->
+            <div id="cart-items" class="p-5 flex-1 overflow-y-auto space-y-4">
+                <div class="text-center text-gray-400 py-10">
+                    <i class="fa-solid fa-box-open text-4xl mb-2 text-gray-300"></i>
+                    <p class="text-sm">Your order cart is empty.</p>
+                    <p class="text-xs text-gray-400 mt-1">Select sweets above to add!</p>
+                </div>
+            </div>
+
+            <!-- CART FOOTER -->
+            <div class="p-5 border-t border-gray-200 bg-cream-50 space-y-4">
+                <div class="flex justify-between items-center text-base font-bold text-maroon-900">
+                    <span>Total Amount:</span>
+                    <span id="cart-total" class="text-xl text-saffron-700">₹0</span>
+                </div>
+                
+                <button onclick="sendCartToWhatsApp()" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3.5 rounded-xl shadow-lg transition flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-xl"></i> Place Order via WhatsApp
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FLOATING QUICK BUTTONS -->
+    <div class="fixed bottom-6 right-6 z-30 flex flex-col gap-3">
+        <a href="https://wa.me/9101452601555?text=Hello%20Kesar%20Sweets%20%26%20Sabor,%20I%20have%20an%20inquiry." target="_blank" class="w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white flex items-center justify-center shadow-2xl transition transform hover:scale-110 border-2 border-white">
+            <i class="fa-brands fa-whatsapp text-3xl"></i>
+        </a>
+        <a href="tel:01452601555" class="w-14 h-14 rounded-full bg-maroon-900 hover:bg-maroon-800 text-gold-400 flex items-center justify-center shadow-2xl transition transform hover:scale-110 border-2 border-gold-500">
+            <i class="fa-solid fa-phone text-2xl"></i>
+        </a>
+    </div>
+
+    <!-- JAVASCRIPT FOR INTERACTION -->
+    <script>
+        // CART STATE
+        let cart = [];
+
+        // UPDATE PRICE ON WEIGHT CHANGE
+        function updatePrice(selectElement) {
+            const card = selectElement.closest('.sweet-card');
+            const basePrice = parseFloat(card.dataset.baseprice);
+            const weightMultiplier = parseFloat(selectElement.value);
+            const priceDisplay = card.querySelector('.price-display');
+            
+            const calculatedPrice = Math.round(basePrice * weightMultiplier);
+            priceDisplay.textContent = '₹' + calculatedPrice;
+        }
+
+        // ADD TO CART FUNCTION
+        function addToCart(buttonElement) {
+            const card = buttonElement.closest('.sweet-card');
+            const name = card.dataset.name;
+            const select = card.querySelector('.weight-select');
+            const weightText = select ? select.options[select.selectedIndex].text : '1 Unit';
+            const priceText = card.querySelector('.price-display').textContent;
+            const priceVal = parseInt(priceText.replace('₹', '').replace(',', ''));
+
+            cart.push({ name, weightText, priceVal });
+            renderCart();
+            toggleCart(true);
+        }
+
+        // RENDER CART
+        function renderCart() {
+            const container = document.getElementById('cart-items');
+            const badge = document.getElementById('cart-badge');
+            const totalDisplay = document.getElementById('cart-total');
+
+            badge.textContent = cart.length;
+
+            if (cart.length === 0) {
+                container.innerHTML = `
+                    <div class="text-center text-gray-400 py-10">
+                        <i class="fa-solid fa-box-open text-4xl mb-2 text-gray-300"></i>
+                        <p class="text-sm">Your order cart is empty.</p>
+                        <p class="text-xs text-gray-400 mt-1">Select sweets above to add!</p>
+                    </div>`;
+                totalDisplay.textContent = '₹0';
+                return;
+            }
+
+            let html = '';
+            let total = 0;
+
+            cart.forEach((item, index) => {
+                total += item.priceVal;
+                html += `
+                    <div class="flex items-center justify-between bg-cream-100 p-3.5 rounded-xl border border-amber-200">
+                        <div>
+                            <h5 class="font-bold text-sm text-maroon-900">${item.name}</h5>
+                            <span class="text-xs text-gray-500">${item.weightText}</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="font-extrabold text-sm text-maroon-900">₹${item.priceVal}</span>
+                            <button onclick="removeFromCart(${index})" class="text-red-500 hover:text-red-700 text-xs">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+            totalDisplay.textContent = '₹' + total;
+        }
+
+        // REMOVE FROM CART
+        function removeFromCart(index) {
+            cart.splice(index, 1);
+            renderCart();
+        }
+
+        // TOGGLE CART DRAWER
+        function toggleCart(forceOpen = false) {
+            const drawer = document.getElementById('cart-drawer');
+            if (forceOpen || drawer.classList.contains('hidden')) {
+                drawer.classList.remove('hidden');
+            } else {
+                drawer.classList.add('hidden');
+            }
+        }
+
+        // SEND CART ORDER TO WHATSAPP
+        function sendCartToWhatsApp() {
+            if (cart.length === 0) {
+                alert('Please add items to cart first!');
+                return;
+            }
+
+            let msg = 'Hello Kesar Sweets (Ground Floor), I would like to place a sweet order:\n\n';
+            let total = 0;
+            cart.forEach((item, i) => {
+                msg += `${i + 1}. ${item.name} (${item.weightText}) - ₹${item.priceVal}\n`;
+                total += item.priceVal;
+            });
+            msg += `\n*Total Amount:* ₹${total}\n`;
+            msg += `\nPlease confirm availability and delivery time.`;
+
+            const encodedMsg = encodeURIComponent(msg);
+            window.open(`https://wa.me/9101452601555?text=${encodedMsg}`, '_blank');
+        }
+
+        // BANQUET FORM SUBMIT TO WHATSAPP
+        function handleBanquetSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('banquetName').value;
+            const phone = document.getElementById('banquetPhone').value;
+            const date = document.getElementById('banquetDate').value;
+            const venue = document.getElementById('banquetVenue').value;
+            const guests = document.getElementById('banquetGuests').value;
+
+            const msg = `Namaste Kesar Sweets & Sabor Cafe,\n\nI would like to inquire about event availability:\n\n👤 *Name:* ${name}\n📞 *Phone:* ${phone}\n📅 *Event Date:* ${date}\n📍 *Venue Choice:* ${venue}\n👥 *Guests:* ${guests}\n\nPlease share menu choices and quotation.`;
+
+            window.open(`https://wa.me/9101452601555?text=${encodeURIComponent(msg)}`, '_blank');
+        }
+
+        // SWEETS TAB FILTERING
+        function filterSweets(category) {
+            const cards = document.querySelectorAll('.sweet-card');
+            const tabs = document.querySelectorAll('.sweet-tab');
+
+            tabs.forEach(tab => {
+                tab.classList.remove('bg-maroon-900', 'text-gold-400');
+                tab.classList.add('bg-white', 'text-gray-700');
+            });
+
+            event.target.classList.remove('bg-white', 'text-gray-700');
+            event.target.classList.add('bg-maroon-900', 'text-gold-400');
+
+            cards.forEach(card => {
+                if (category === 'all' || card.dataset.category === category) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+        }
+
+        // MOBILE MENU TOGGLE
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
